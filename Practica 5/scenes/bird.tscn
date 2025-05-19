@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://b6xt1pam4caki"]
+
+[ext_resource type="Script" uid="uid://dwdvgvy7r7fvc" path="res://scenes/bird.gd" id="1_jmxwj"]
+[ext_resource type="Texture2D" uid="uid://75cqnnrgf8fh" path="res://assets/TacoCat.png" id="2_3po83"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xn4pq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_3po83")
+}],
+"loop": true,
+"name": &"flying",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0hppq"]
+radius = 18.0
+height = 52.0
+
+[node name="TacoCat" type="CharacterBody2D"]
+script = ExtResource("1_jmxwj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_xn4pq")
+animation = &"flying"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_0hppq")
