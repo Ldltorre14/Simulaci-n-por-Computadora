@@ -1,5 +1,4 @@
-# Dodge the Creeps 2D assets
-
-Used by the "Your first 2D game" tutorial:
-
-https://docs.godotengine.org/en/latest/getting_started/first_2d_game/index.html
+# Practica 4
+### Capturas del juego
+![Gameplay](Practica%204_1.png)
+![Gameplay](Practica%204_2.png)
