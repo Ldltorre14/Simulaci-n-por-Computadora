@@ -1,5 +1,7 @@
-# Dodge the Creeps 2D assets
+# TacoCat - Flappy Bird
+### Capturas de pantalla
+![Gameplay](TacoCat.png)
+![Gameplay](TacoCat.png)
 
-Used by the "Your first 2D game" tutorial:
-
-https://docs.godotengine.org/en/latest/getting_started/first_2d_game/index.html
+### Video de gameplay 
+##### Busque "TacoCat-VideoDEMO.mp4" dentro del repo
